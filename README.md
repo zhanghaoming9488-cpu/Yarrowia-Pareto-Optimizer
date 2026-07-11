@@ -60,6 +60,7 @@ cd YaliOpt
 
 # 2. Run the Core Pareto Optimization Engine
 python 03_Core_Algorithm/09_NSGA2_pareto_optimizer.py
+```
 
 Note: This will output the three optimal DNA sequences directly to your console.
 
