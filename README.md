@@ -63,7 +63,7 @@ python 03_Core_Algorithm/09_NSGA2_pareto_optimizer.py
 
 Note: This will output the three optimal DNA sequences directly to your console.
 
-📂 Project Structure
+## 📂 Project Structure
 This project is highly modularized, taking you from raw FASTQ reads to final algorithm visualization.
 
 Part 1: Data Preparation
