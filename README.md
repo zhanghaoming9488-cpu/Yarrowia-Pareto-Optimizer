@@ -67,14 +67,14 @@ Note: This will output the three optimal DNA sequences directly to your console.
 ## 📂 Project Structure
 This project is highly modularized, taking you from raw FASTQ reads to final algorithm visualization.
 
-Part 1: Data Preparation
+# Part 1: Data Preparation
 01_fetch_raw_reads.py: Downloads raw RNA-seq data from NCBI SRA.
 
 02_download_reference.py: Fetches the Y. lipolytica reference genome.
 
 03_run_kallisto_quant.py: Quantifies gene expression using Kallisto.
 
-Part 2: Knowledge Mining (Rule Extraction)
+# Part 2: Knowledge Mining (Rule Extraction)
 04_find_rna_inflection.py: Identifies high-expression baseline via mathematical inflection points.
 
 05_intersect_multi_omics.py: Cross-references transcriptomic and proteomic data.
@@ -85,15 +85,15 @@ Part 2: Knowledge Mining (Rule Extraction)
 
 08_mine_toxic_pairs.py: Scans the whole genome to build the toxicity blacklist.
 
-Part 3: Core Algorithm
+# Part 3: Core Algorithm
 09_nsga2_pareto_optimizer.py: Executes the 3D multi-objective genetic evolution.
 
-Part 4: Scientific Visualization
+# Part 4: Scientific Visualization
 10_plot_ramp_comparison.py
 
 11_plot_cai_rewiring.py
 
 12_plot_pareto_evolution.py
 
-✉️ Contact & Feedback
+## ✉️ Contact & Feedback
 If you have any questions about the algorithm design, industrial biomanufacturing applications, or just want to connect, feel free to reach out!
